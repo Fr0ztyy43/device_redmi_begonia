@@ -24,27 +24,6 @@ TARGET_ENABLE_BLUR := true
 # Inherit some extras stuff
 $(call inherit-product-if-exists, vendor/extras/extras.mk)
 
-# Device config
-TARGET_FACE_UNLOCK_SUPPORTED := true
-
-# GAPPS
-WITH_GAPPS := true
-TARGET_INCLUDE_GOOGLE_CALCULATOR :=true
-TARGET_INCLUDE_GOOGLE_CALENDAR := true
-TARGET_INCLUDE_GOOGLE_CHROME := false
-TARGET_INCLUDE_GOOGLE_DESKCLOCK := true
-TARGET_INCLUDE_GOOGLE_DRIVE := false
-TARGET_INCLUDE_GMAIL := false
-TARGET_INCLUDE_GOOGLE_MAPS := false
-TARGET_INCLUDE_GOOGLE_PHOTOS := true
-TARGET_INCLUDE_GOOGLE_SETUP := true
-
-# Debugging
-TARGET_INCLUDE_MATLOG := true
-
-# Maintainer
-ALPHA_MAINTAINER := Fr0zt
-
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
