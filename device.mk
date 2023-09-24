@@ -413,5 +413,8 @@ PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
 
+# ANXCamera
+$(call inherit-product, vendor/ANXCamera/config.mk)
+
 # Inherit vendor
 $(call inherit-product, vendor/redmi/begonia/begonia-vendor.mk)
