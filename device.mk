@@ -414,7 +414,7 @@ PRODUCT_PACKAGES += \
     RcsService
 
 # ANXCamera
-$(call inherit-product, vendor/ANXCamera/config.mk)
+$(call inherit-product, packages/apps/ANXCamera/config.mk
 
 # Inherit vendor
 $(call inherit-product, vendor/redmi/begonia/begonia-vendor.mk)
