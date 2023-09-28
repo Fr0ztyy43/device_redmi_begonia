@@ -61,6 +61,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     BesLoudness
 
+# Debloat
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.3.vendor \
